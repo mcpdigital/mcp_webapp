@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React from "react";
 import Image from "next/image";
 import { Space_Mono } from "next/font/google";
@@ -43,9 +43,11 @@ const FetchApi: React.FC = () => {
     <div className="w-full">
       <div className=" bg-slate-800 min-h-16">
         <p className="uppercase ml-5 pt-3 align-bottom font-semibold text-2xl text-slate-900">
-          {userData.login} -> <span className="ml-5 normal-case text-xl">Fetched from GitHub API:</span>
+          {userData.login} -&gt;{" "}
+          <span className="ml-5 normal-case text-xl">
+            Fetched from GitHub API.
+          </span>
         </p>
-        
       </div>
       <div className="bg-gray-100 p-4 rounded-md shadow-md">
         <h2 className="text-xl mb-2">User: {userData.login}</h2>
