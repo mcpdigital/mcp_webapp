@@ -41,18 +41,18 @@ const FetchApi: React.FC = () => {
 
   return (
     <div className="w-full">
-      <div className=" bg-slate-800 min-h-16">
-        <p className="uppercase ml-5 pt-3 align-bottom font-semibold text-2xl text-slate-900">
+      <div className=" bg-gray-800 text-zinc-200 min-h-16">
+        <p className="uppercase ml-5 pt-3 align-bottom font-semibold text-2xl">
           {userData.login} -&gt;{" "}
           <span className="ml-5 normal-case text-xl">
             Fetched from GitHub API.
           </span>
         </p>
       </div>
-      <div className="bg-gray-100 p-4 rounded-md shadow-md">
+      <div className="bg-gray-800 p-4 rounded-md shadow-md">
         <h2 className="text-xl mb-2">User: {userData.login}</h2>
-        <p className="text-gray-700">ID: {userData.id}</p>
-        <p className="text-gray-700">Avatar Link: {userData.avatar_url}</p>
+        <p className="text-gray-200">ID: {userData.id}</p>
+        <p className="text-gray-300">Avatar Link: {userData.avatar_url}</p>
         <Image
           src={userData.avatar_url}
           alt="User Avatar"
@@ -61,18 +61,18 @@ const FetchApi: React.FC = () => {
           width="200"
           height="200"
         />
-        <p className="text-gray-600 mt-2">Name: {userData.name}</p>
+        <p className="text-gray-800 mt-2">Name: {userData.name}</p>
         <p className="text-blue-500 mt-2">
           GitHub Profile:{" "}
           <a href={userData.html_url} target="_blank" rel="noopener noreferrer">
             {userData.html_url}
           </a>
         </p>
-        <p className="text-gray-600 mt-2">
+        <p className="text-gray-200 mt-2">
           Public Repos: {userData.public_repos}
         </p>
-        <p className="text-gray-600 mt-2">Followers: {userData.followers}</p>
-        <p className="text-gray-600 mt-2">Following: {userData.following}</p>
+        <p className="text-gray-300 mt-2">Followers: {userData.followers}</p>
+        <p className="text-gray-300 mt-2">Following: {userData.following}</p>
       </div>
     </div>
   );
