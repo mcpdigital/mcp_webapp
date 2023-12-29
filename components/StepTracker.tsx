@@ -54,8 +54,7 @@ export default function StepTracker() {
         </button>
       </p>
       <p className="text-red-500 flex justify-center leading-[30px] text-sm mt-3">
-        To change font size and color in the middle of a p I used
-        (leading-[30px])
+        used (leading-[2rem ou 30px]) to valign fonts
       </p>
     </div>
   );
