@@ -2,9 +2,9 @@ import React from "react";
 
 const navbar = () => {
   return (
-    <div className="z-10 fixed left-0 top-0 flex min-h-[50px] w-full items-center  font-mono text-sm lg:flex flex-row gap-1 bg-gradient-to-b background-clip-text from-[#000000]  to-slate-900 hover:from-[#6445ff] hover:to-[#0a0720]">
+    <div className="z-10 left-0 top-0 max-h-[25px] min-h-[25px] sm:min-h[25px] lg:min-h-[50px]  md:min-h-[50px] sm:max-h-[25px] flex flex-wrap gap-1 align-middle font-mono text-sm bg-gradient-to-b from-[#000000]  to-slate-900 hover:from-[#6445ff] hover:to-[#0a0720]">
       <a
-        className=" hover:text-sky-400 hover:backdrop-brightness-75 rounded-lg max-h-[50px] p-4 align-center"
+        className="hover:text-sky-400 hover:backdrop-brightness-75 rounded-sm md:rounded-lg min-h[25px] max-h-[25px] sm:min-h[25px] lg:min-h-[50px]  md:min-h-[50px] sm:max-h-[25px] md:p-4 p-1 sm:p-1"
         href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
         target="_blank"
         rel="noopener noreferrer"
@@ -12,7 +12,7 @@ const navbar = () => {
         NextJS
       </a>
       <a
-        className=" hover:text-sky-400 hover:backdrop-brightness-75 rounded-lg max-h-[50px] p-4 align-center"
+        className=" hover:text-sky-400 hover:backdrop-brightness-75 rounded-sm md:rounded-lg min-h[25px] max-h-[25px] sm:min-h[25px] lg:min-h-[50px]  md:min-h-[50px] sm:max-h-[25px] md:p-4 p-1 sm:p-1"
         href="https://tailwindcss.com/docs/line-height#fixed-line-heights"
         target="_blank"
         rel="noopener noreferrer"
@@ -20,7 +20,7 @@ const navbar = () => {
         Tailwind
       </a>
       <a
-        className=" hover:text-sky-400 hover:backdrop-brightness-75 rounded-lg max-h-[50px] p-4 align-center"
+        className=" hover:text-sky-400 hover:backdrop-brightness-75 rounded-sm md:rounded-lg min-h[25px] max-h-[25px] sm:min-h[25px] lg:min-h-[50px]  md:min-h-[50px] sm:max-h-[25px] md:p-4 p-1 sm:p-1"
         href="https://www.hyperui.dev/components/marketing/banners#component-2"
         target="_blank"
         rel="noopener noreferrer"
@@ -28,7 +28,7 @@ const navbar = () => {
         HyperUI
       </a>
       <a
-        className=" hover:text-sky-400 hover:backdrop-brightness-75 rounded-lg max-h-[50px] p-4 align-center"
+        className=" hover:text-sky-400 hover:backdrop-brightness-75 rounded-sm md:rounded-lg min-h[25px] max-h-[25px] sm:min-h[25px] lg:min-h-[50px]  md:min-h-[50px] sm:max-h-[25px] md:p-4 p-1 sm:p-1"
         href="https://freefrontend.com/tailwind-code-examples/"
         target="_blank"
         rel="noopener noreferrer"
@@ -36,7 +36,7 @@ const navbar = () => {
         FreeFrontEnd
       </a>
       <a
-        className=" hover:text-sky-400 hover:backdrop-brightness-75 rounded-lg max-h-[50px] p-4 align-center"
+        className=" hover:text-sky-400 hover:backdrop-brightness-75 rounded-sm md:rounded-lg min-h[25px] max-h-[25px] sm:min-h[25px] lg:min-h-[50px]  md:min-h-[50px] sm:max-h-[25px] md:p-4 p-1 sm:p-1"
         href="https://ui.shadcn.com/docs"
         target="_blank"
         rel="noopener noreferrer"
@@ -44,7 +44,7 @@ const navbar = () => {
         Shadcn/UI
       </a>
       <a
-        className=" hover:text-sky-400 hover:backdrop-brightness-75 rounded-lg max-h-[50px] p-4 align-center"
+        className=" hover:text-sky-400 hover:backdrop-brightness-75 rounded-sm md:rounded-lg min-h[25px] max-h-[25px] sm:min-h[25px] lg:min-h-[50px]  md:min-h-[50px] sm:max-h-[25px] md:p-4 p-1 sm:p-1"
         href="https://us-east-2.console.aws.amazon.com/amplify/home?region=us-east-2#/"
         target="_blank"
         rel="noopener noreferrer"
