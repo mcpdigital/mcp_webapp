@@ -1,10 +1,10 @@
-import useClientState from "next/client";
+'use client';
 import React from "react";
 import Image from "next/image";
 import { Space_Mono } from "next/font/google";
 
 const FetchApi: React.FC = () => {
-  const [userData, setUserData] = React.useClient<any>(null);
+  const [userData, setUserData] = React.useState<any>(null);
   const [error, setError] = React.useState<string | null>(null);
   const [loading, setLoading] = React.useState<boolean>(true);
 
