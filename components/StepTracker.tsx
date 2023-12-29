@@ -18,39 +18,39 @@ export default function StepTracker() {
   }
 
   return (
-    <div className=" min-w-min text-center bg-[radial-gradient(138.06%_1036.51%_at_95.25%_-2.54%,_#031b01_14.06%,#103f57_51.02%,#030e2d_79.09%)] bg-zinc-900 hover:bg-zinc-800 p-4 w-full">
-      <p className="leading-[30px] flex text-3xl justify-center font-bold mb-4">
+    <div className="overflow-hidden min-w-min text-center bg-[radial-gradient(138.06%_1036.51%_at_95.25%_-2.54%,_#031b01_14.06%,#103f57_51.02%,#030e2d_79.09%)] bg-zinc-900 hover:bg-zinc-800 p-4 w-full">
+      <p className="leading-[30px] flex text-xl sm:text-xl md:text-3xl lg:text-3xl justify-center font-bold mb-4">
         An&nbsp;
-        <span className="leading-[30px]  text-orange-600 italic text-3xl">
+        <span className="leading-[30px] text-xl text-orange-600 italic sm:text-xl md:text-3xl lg:text-3xl ">
           useState
         </span>
         &nbsp;example.
       </p>
-      <p className="flex leading-[30px] text-3xl justify-center font-bold mb-4">
+      <p className="flex sm.leading-[2rem] text-xl sm:text-xl md:text-3xl lg:text-3xl justify-center font-bold mb-4">
         The counter is at: &nbsp;
-        <span className="leading-[30px]  flex justify-center text-center text-4xl text-blue-500">
+        <span className=" sm-leading-[2rem] flex justify-center text-center text-blue-500">
           {steps}&nbsp;now!
         </span>
       </p>
 
-      <p className="flex flex-row mt-18 gap-4 justify-center">
+      <p className="min-w-32 flex flex-row mt-18 gap-4 justify-center">
         <button
-          className="w-44 width-2 border-4 p-2  border-zinc-500 hover:border-sky-500"
+          className="w-16 border-4 p-2 rounded-lg  border-zinc-500 hover:border-sky-500"
           onClick={increment}
         >
-          Add one
+          +
         </button>
         <button
-          className="min-w-44 border-4 p-2 border-zinc-500 hover:border-violet-500"
+          className="w-16 border-4 p-2 rounded-lg  border-zinc-500 hover:border-violet-500"
           onClick={decrement}
         >
-          Subtract one
+          -
         </button>
         <button
-          className="w-44 border-4 p-2 border-zinc-500 hover:border-red-400"
+          className="w-32 border-4 p-2 rounded-lg  border-zinc-500 hover:border-red-400"
           onClick={reset}
         >
-          Reset counter
+          Reset
         </button>
       </p>
       <p className="text-red-500 flex justify-center leading-[30px] text-sm mt-3">
