@@ -7,6 +7,8 @@ import StepTracker from "@/components/useState";
 import Footer from "@/components/Footer";
 import FetchApi from "@/components/GithubFetch";
 import FeaturesDiv from "@/components/FeaturesDiv";
+import UsingGradients from "@/components/UsingGradients";
+
 export default function Home() {
   return (
     <main className="">

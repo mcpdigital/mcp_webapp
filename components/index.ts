@@ -6,7 +6,7 @@ import StepTracker from "./useState";
 import Footer from "./Footer";
 import FetchApi from "./GithubFetch";
 import FeaturesDiv from "./FeaturesDiv";
-//import CustomButton from "./CustomButton ta dificl";
+import UsingGradients from "./UsingGradients"; // "tw_gradients" from "../tw_gradients";
 export {
   Navbar,
   Title,
@@ -16,4 +16,5 @@ export {
   Footer,
   FetchApi,
   FeaturesDiv,
+  UsingGradients,
 };

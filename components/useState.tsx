@@ -18,7 +18,7 @@ export default function StepTracker() {
   }
 
   return (
-    <div className="overflow-hidden min-w-min text-center bg-[radial-gradient(138.06%_1036.51%_at_95.25%_-2.54%,_#031b01_14.06%,#103f57_51.02%,#030e2d_79.09%)] bg-zinc-900 hover:bg-zinc-800 p-4 w-full">
+    <div className="overflow-hidden min-w-min text-center bg-[radial-gradient(138.06%_1036.51%_at_95.25%_-2.54%,_#06011b_14.06%,#103f57_51.02%,#030e2d_79.09%)] bg-zinc-900 hover:bg-zinc-800 p-4 w-full">
       <p className="leading-[30px] flex text-xl sm:text-xl md:text-3xl lg:text-3xl justify-center font-bold mb-4">
         An&nbsp;
         <span className="leading-[30px] text-xl text-orange-600 italic sm:text-xl md:text-3xl lg:text-3xl ">
