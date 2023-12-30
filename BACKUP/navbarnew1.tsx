@@ -1,6 +1,5 @@
 import React from "react";
 import LinkCard from "./LinkCard";
-
 const navbar = () => {
   return (
     <div className="z-10 left-0 top-0 max-h-[25px] min-h-[25px] sm:min-h[25px] lg:min-h-[50px] md:min-h-[50px] sm:max-h-[25px] flex flex-wrap gap-1 align-middle font-mono text-sm bg-gradient-to-b from-[#000000] to-slate-900 hover:from-[#6445ff] hover:to-[#0a0720]">
