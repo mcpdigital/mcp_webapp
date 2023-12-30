@@ -1,4 +1,4 @@
-import Hero from "./hero";
+import Hero from "./Hero";
 import Title from "./title";
 import Navbar from "./navbar";
 import Middle from "./middle";
