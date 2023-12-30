@@ -1,5 +1,4 @@
 import React from "react";
-
 const title = () => {
   return (
     <div className="bg-slate-950">
