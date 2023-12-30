@@ -28,7 +28,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "components/navbarnew1.tsx.old"
+    "BACKUP/navbarnew1.tsx.old"
   ],
   "exclude": ["node_modules"]
 }
