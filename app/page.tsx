@@ -4,7 +4,7 @@ import Title from "@/components/title";
 import Hero from "@/components/hero";
 import Middle from "@/components/middle";
 import StepTracker from "@/components/useState";
-import Footer from "@/components/Footer";
+import Footer from "@/components/footer";
 import FetchApi from "@/components/GithubFetch";
 import FeaturesDiv from "@/components/FeaturesDiv";
 import VertCard from "@/components/VertCard";

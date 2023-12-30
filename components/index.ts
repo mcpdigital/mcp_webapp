@@ -3,7 +3,7 @@ import Title from "./title";
 import Navbar from "./navbar";
 import Middle from "./middle";
 import StepTracker from "./useState";
-import Footer from "./Footer";
+import Footer from "./footer";
 import FetchApi from "./GithubFetch";
 import FeaturesDiv from "./FeaturesDiv";
 import VertCard from "./VertCard";
