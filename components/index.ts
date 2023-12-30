@@ -6,7 +6,6 @@ import StepTracker from "./useState";
 import Footer from "./footer";
 import FetchApi from "./GithubFetch";
 import FeaturesDiv from "./FeaturesDiv";
-
 //import CustomButton from "./CustomButton ta dificl";
 export {
   Navbar,
