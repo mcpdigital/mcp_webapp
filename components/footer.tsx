@@ -25,12 +25,6 @@ const footer = () => {
           </div>
         </div>
       </footer>
-      <section className="flex  justify-around text-red-700 bg-slate-500 px-10 py-5">
-        <p className="">Primeiro</p>
-        <p className="">Segundo</p>
-        <span className="">Primeiro</span>
-        <span className="">Segundo</span>
-      </section>
     </div>
   );
 };

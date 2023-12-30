@@ -1,0 +1,26 @@
+import React from "react";
+
+type FeatureCardsProps = {
+  href: string;
+  h2: string;
+  p: string;
+};
+
+const FeatureCards: React.FC<FeatureCardsProps> = ({ href, h2, p }) => (
+  <a
+    href={href}
+    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <h2 className="mb-3 text-2xl font-semibold text-center">
+      {h2}{" "}
+      <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+        -&gt;
+      </span>
+    </h2>
+    <p className="m-0 max-w-[30ch] text-sm opacity-50 sm:text-center">{p}</p>
+  </a>
+);
+
+export default FeatureCards;

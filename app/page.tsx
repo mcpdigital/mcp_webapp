@@ -3,10 +3,10 @@ import Navbar from "@/components/navbar";
 import Title from "@/components/title";
 import Hero from "@/components/hero";
 import Middle from "@/components/middle";
-import Features from "@/components/features";
 import StepTracker from "@/components/StepTracker";
 import Footer from "@/components/footer";
-import FetchApi from "@/components/fetchapi";
+import FetchApi from "@/components/GithubFetch";
+import FeaturesDiv from "@/components/FeaturesDiv";
 export default function Home() {
   return (
     <main className="">
@@ -26,14 +26,11 @@ export default function Home() {
         <FetchApi />
       </div>
 
-      <div className="flex justify-center">
-        <Features />
+      <div className="flex justify-center mt-[5px]">
+        <FeaturesDiv />
       </div>
       <div>
         <Footer />
-      </div>
-      <div className="flex-row justify-center pt-[5px] w-full">
-        <Middle />
       </div>
     </main>
   );

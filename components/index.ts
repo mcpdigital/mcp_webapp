@@ -5,6 +5,18 @@ import Middle from "./middle";
 import Features from "./features";
 import StepTracker from "./StepTracker";
 import Footer from "./footer";
-import FetchApi from "./fetchapi";
+import FetchApi from "./GithubFetch";
+import FeaturesDiv from "./FeaturesDiv";
+
 //import CustomButton from "./CustomButton";
-export { Navbar, Title, Middle, Hero, Features, StepTracker, Footer, FetchApi };
+export {
+  Navbar,
+  Title,
+  Middle,
+  Hero,
+  Features,
+  StepTracker,
+  Footer,
+  FetchApi,
+  FeaturesDiv,
+};

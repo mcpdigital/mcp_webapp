@@ -40,8 +40,8 @@ const FetchApi: React.FC = () => {
   }
 
   return (
-    <div className="w-full">
-      <div className=" bg-gray-800 text-zinc-200 min-h-16">
+    <div className=" flex flex-col content-center justify-center">
+      <div className="bg-gray-900 text-zinc-200 min-h-16 text-center">
         <p className="uppercase ml-5 pt-3 align-bottom font-semibold text-2xl">
           {userData.login} -&gt;{" "}
           <span className="ml-5 normal-case text-xl">
@@ -49,14 +49,14 @@ const FetchApi: React.FC = () => {
           </span>
         </p>
       </div>
-      <div className="bg-gray-800 p-4 rounded-md shadow-md">
+      <div className="flex flex-col mb-10 bg-gray-800 p-4 mt-2 m-auto shadow-md rounded-lg text-center max-w-min justify-center">
         <h2 className="text-xl mb-2">User: {userData.login}</h2>
         <p className="text-gray-200">ID: {userData.id}</p>
         <p className="text-gray-300">Avatar Link: {userData.avatar_url}</p>
         <Image
           src={userData.avatar_url}
           alt="User Avatar"
-          className="rounded-full mt-2"
+          className="m-auto rounded-full mt-2"
           style={{ width: "100px" }}
           width="200"
           height="200"
