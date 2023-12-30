@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Navbar from "@/components/navbar";
-import Title from "@/components/title";
+import Navbar from "@/components/Navbar";
+import Title from "@/components/Title";
 import Hero from "@/components/Hero";
-import Middle from "@/components/middle";
+import Middle from "@/components/Middle";
 import StepTracker from "@/components/useState";
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 import FetchApi from "@/components/GithubFetch";
 import FeaturesDiv from "@/components/FeaturesDiv";
 export default function Home() {

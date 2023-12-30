@@ -1,9 +1,9 @@
 import Hero from "./Hero";
-import Title from "./title";
-import Navbar from "./navbar";
-import Middle from "./middle";
+import Title from "./Title";
+import Navbar from "./Navbar";
+import Middle from "./Middle";
 import StepTracker from "./useState";
-import Footer from "./footer";
+import Footer from "./Footer";
 import FetchApi from "./GithubFetch";
 import FeaturesDiv from "./FeaturesDiv";
 //import CustomButton from "./CustomButton ta dificl";
