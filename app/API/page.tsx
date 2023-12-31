@@ -1,7 +1,7 @@
 import React from "react";
 
 const API = () => {
-  return <div>api</div>;
+  return <div>API future page</div>;
 };
 
 export default API;
