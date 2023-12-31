@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-// Define the type for the items in the data array
+
 // Define the type for the items in the data array
 interface Item {
   id: number;
@@ -13,12 +13,10 @@ interface DataDisplayProps {
 }
 
 function FetchApiComponent() {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState<Item[]>([]);
 
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/posts")
-      // fetch("https://jsonplaceholder.typicode.com/posts")
-      // fetch("https://www.mcpdigital.com/main/wp-json/wp/v2/pages/816")
       .then((response) => response.json())
       .then((json) => setData(json));
   }, []);
