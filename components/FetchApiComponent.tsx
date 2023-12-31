@@ -32,14 +32,7 @@ function DataDisplay({ data }) {
   return (
     <div>
       {data.map((item) => (
-        <div key={item.id}>
-          {item.rendered}
-          <p>UserID: {item.userId}</p>
-          <h1>Title</h1>
-          {item.title}
-          <p>Body</p>
-          <p>{item.body}</p>
-        </div>
+        <div key={item.id}>{item.title}</div>
       ))}
     </div>
   );
