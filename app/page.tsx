@@ -9,9 +9,10 @@ import FetchApi from "@/components/GithubFetch";
 import FeaturesDiv from "@/components/FeaturesDiv";
 import UsingGradients from "@/components/UsingGradients";
 
+import { RAD_PURPLE } from "@/tw_gradients";
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <div>
         <Navbar />
       </div>

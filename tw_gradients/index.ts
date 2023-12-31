@@ -31,3 +31,7 @@ export const GRAD_PARADISE: string =
   "bg-gradient-to-r from-blue-300 via-green-200 to-yellow-300";
 export const GRAD_MIDNIGHT: string =
   "bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900";
+export const GRAD_BLUECYAN: string =
+  "bg-gradient-to-r from-blue-200 to-cyan-200";
+export const RAD_PURPLE: string =
+  "bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-yellow-700 via-purple-600 to-gray-100";
