@@ -1,6 +1,7 @@
 import React from "react";
 import { GRAD_GOTHAN } from "../../tw_gradients";
 import Image from "next/image";
+
 const CardsPage = () => {
   return (
     <div className={GRAD_GOTHAN + ""}>
