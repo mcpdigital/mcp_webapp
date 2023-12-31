@@ -1,7 +1,18 @@
 import React, { useEffect, useState } from "react";
+interface DataType {
+  id: number;
+  title: {
+    rendered: string;
+  };
+  // include other properties as needed
+}
 
 function FetchWP() {
-  const [data, setData] = useState({ posts: [], pages: [], media: [] });
+  const [data, setData] = useState<{
+    posts: DataType[];
+    pages: DataType[];
+    media: DataType[];
+  }>({ posts: [], pages: [], media: [] });
 
   useEffect(() => {
     const baseUrl = "https://mcpdigital.com/main/wp-json/wp/v2";
