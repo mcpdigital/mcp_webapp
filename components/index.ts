@@ -7,7 +7,7 @@ import Footer from "./Footer";
 import FetchApi from "./GithubFetch";
 import FeaturesDiv from "./FeaturesDiv";
 import UsingGradients from "./UsingGradients"; // "tw_gradients" from "../tw_gradients";
-import FetchApiComponent from "./FetchApiComponent";
+
 import FetchWP from "./FetchWP";
 export {
   Navbar,
@@ -19,5 +19,5 @@ export {
   FetchApi,
   FeaturesDiv,
   UsingGradients,
-  FetchApiComponent,
+  FetchWP,
 };
