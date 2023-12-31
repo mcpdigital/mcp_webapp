@@ -18,6 +18,18 @@ const nextConfig = {
         protocol: "https",
         hostname: "dummyimage.com",
       },
+      {
+        protocol: "https",
+        hostname: "cdn.iconscout.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.pexels.com",
+      },
+      {
+        protocol: "https",
+        hostname: "randomuser.me",
+      },
     ],
   },
 };

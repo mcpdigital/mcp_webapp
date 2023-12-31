@@ -20,6 +20,8 @@ import {
   GRAD_MIDNIGHT,
   GRAD_BLUECYAN,
   RAD_PURPLE,
+  RAD_PP,
+  RAD_PURPLE1,
 } from "../../tw_gradients";
 
 const GradientsPage = () => {
@@ -85,7 +87,7 @@ const GradientsPage = () => {
             " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
           }
         >
-          <p className="bold text-slate-950">GRD_BEACHSIDE</p>
+          <p className="bold text-slate-950">GRAD_BEACHSIDE</p>
           <p>{GRAD_BEACHSIDE}</p>
         </div>
         <div
@@ -94,7 +96,7 @@ const GradientsPage = () => {
             " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
           }
         >
-          <p className="bold text-slate-950">GRD_GUNMETAL</p>
+          <p className="bold text-slate-950">GRAD_GUNMETAL</p>
           <p>{GRAD_GUNMETAL}</p>
         </div>
         <div
@@ -202,6 +204,24 @@ const GradientsPage = () => {
         >
           <p className="bold text-slate-950">RAD_PURPLE</p>
           <p>{RAD_PURPLE}</p>
+        </div>
+        <div
+          className={
+            RAD_PP +
+            " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+          }
+        >
+          <p className="bold text-slate-950">RAD_PP</p>
+          <p>{RAD_PP}</p>
+        </div>
+        <div
+          className={
+            RAD_PURPLE1 +
+            " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+          }
+        >
+          <p className="bold text-slate-950">RAD_PURPLE1</p>
+          <p>{RAD_PURPLE1}</p>
         </div>
       </div>
     </div>
