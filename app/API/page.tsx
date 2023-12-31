@@ -1,7 +1,7 @@
 import React from "react";
-
-const API = () => {
-  return <div>API future page</div>;
+import FetchApiComponent from "@/components/FetchApiComponent";
+const CallFetch = () => {
+  return <FetchApiComponent />;
 };
 
-export default API;
+export default CallFetch;
