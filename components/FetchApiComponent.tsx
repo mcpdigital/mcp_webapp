@@ -1,6 +1,18 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+// Define the type for the items in the data array
+// Define the type for the items in the data array
+interface Item {
+  id: number;
+  title: string;
+  // Add other properties as needed
+}
+
+// Use this type for the data prop
+interface DataDisplayProps {
+  data: Item[];
+}
 
 function FetchApiComponent() {
   const [data, setData] = useState(null);
@@ -25,10 +37,11 @@ function FetchApiComponent() {
   );
 }
 
-function DataDisplay({ data }) {
+const DataDisplay: React.FC<DataDisplayProps> = ({ data }) => {
   if (!Array.isArray(data)) {
     return null;
   }
+
   return (
     <div>
       {data.map((item) => (
@@ -36,6 +49,6 @@ function DataDisplay({ data }) {
       ))}
     </div>
   );
-}
+};
 
 export default FetchApiComponent;
