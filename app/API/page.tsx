@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import FetchApiComponent from "@/components/FetchApiComponent";
 const CallFetch = () => {

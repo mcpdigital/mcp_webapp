@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useState, useEffect } from "react";
 // Define the type for the items in the data array
 // Define the type for the items in the data array
