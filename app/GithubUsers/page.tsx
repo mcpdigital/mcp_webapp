@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import UserCard from "@/components/UserCard"; // Import the newly created UserCard component
+import UserCard from "@/components/pages/GithubUsers/GHUserCard"; // Import the newly created UserCard component
 import { GHApiResponse } from "../../types/types"; // Import ApiResponse interface from a shared types file
 
 import { GRAD_GOTHAN, GRAD_GOTHAN_TB } from "../../tw_gradients";

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { GHApiResponse } from "../types/types"; // Import ApiResponse interface from a shared types file
+import { GHApiResponse } from "../../../types/types"; // Import ApiResponse interface from a shared types file
 
 interface UserCardProps {
   user: GHApiResponse; // Pass a single user data to the component

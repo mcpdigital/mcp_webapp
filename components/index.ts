@@ -1,14 +1,14 @@
-import Hero from "./Hero";
-import Title from "./Title";
-import Navbar from "./Navbar";
-import Middle from "./Middle";
+import Hero from "./pages/home/Hero";
+import Title from "./pages/home/Title";
+import Navbar from "./pages/home/Navbar";
+import Middle from "./pages/home/Middle";
 import StepTracker from "./useState";
-import Footer from "./Footer";
-import FetchApi from "./GithubFetch";
-import FeaturesDiv from "./FeaturesDiv";
-import UsingGradients from "./UsingGradients"; // "tw_gradients" from "../tw_gradients";
-import UserCard from "./UserCard";
-import FetchWP from "./FetchWP";
+import Footer from "./pages/home/Footer";
+import FetchApi from "./FetchGHUser";
+import FeaturesDiv from "./pages/home/Features";
+//import UsingGradients from "./ui/UsingGradients"; // "tw_gradients" from "../tw_gradients";
+import UserCard from "./pages/GithubUsers/GHUserCard";
+import FetchWP from "./pages/wpress/FetchWP";
 export {
   Navbar,
   Title,
@@ -18,7 +18,7 @@ export {
   Footer,
   FetchApi,
   FeaturesDiv,
-  UsingGradients,
+  //UsingGradients,
   FetchWP,
   UserCard,
 };

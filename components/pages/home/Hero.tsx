@@ -22,14 +22,15 @@ const hero = () => {
                 className="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
                 href="/GithubUsers"
               >
-                Github API
+                Github Users <br /> Component
               </a>
 
               <a
                 className="block w-full rounded border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-                href="/about"
+                href="/api-data"
               >
-                Learn More
+                Github Users <br />
+                Page
               </a>
             </div>
           </div>

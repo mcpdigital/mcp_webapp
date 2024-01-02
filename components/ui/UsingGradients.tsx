@@ -16,7 +16,7 @@ import {
   GRAD_ARENDELLE,
   GRAD_PARADISE,
   GRAD_MIDNIGHT,
-} from "../tw_gradients";
+} from "../../tw_gradients";
 const hyper = GRAD_HYPER;
 const UsingGradients = () => {
   return (

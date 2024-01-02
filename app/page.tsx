@@ -1,13 +1,13 @@
 import Image from "next/image";
-import Navbar from "@/components/Navbar";
-import Title from "@/components/Title";
-import Hero from "@/components/Hero";
-import Middle from "@/components/Middle";
+import Navbar from "@/components/pages/home/Navbar";
+import Title from "@/components/pages/home/Title";
+import Hero from "@/components/pages/home/Hero";
+import Middle from "@/components/pages/home/Middle";
 import StepTracker from "@/components/useState";
-import Footer from "@/components/Footer";
-import FetchApi from "@/components/GithubFetch";
-import FeaturesDiv from "@/components/FeaturesDiv";
-import UsingGradients from "@/components/UsingGradients";
+import Footer from "@/components/pages/home/Footer";
+import FetchGHUser from "@/components/FetchGHUser";
+import FeaturesDiv from "@/components/pages/home/Features";
+// import UsingGradients from "@/components/ui/UsingGradients";
 
 import { RAD_PURPLE } from "@/tw_gradients";
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
         <StepTracker />
       </div>
       <div className="">
-        <FetchApi />
+        <FetchGHUser />
       </div>
 
       <div className="flex justify-center mt-[5px]">

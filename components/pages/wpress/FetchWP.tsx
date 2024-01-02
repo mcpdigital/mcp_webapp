@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { WPApiResponse } from "../types/types";
+import { WPApiResponse } from "../../../types/types";
 function FetchWP() {
   const [data, setData] = useState<{
     posts: WPApiResponse[];
