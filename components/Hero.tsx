@@ -11,7 +11,7 @@ const hero = () => {
             </h1>
 
             <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-              Showing off my portfolio for you enjoyment.
+              Portfolio creation. Adding new components everyday
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
