@@ -49,10 +49,10 @@ const FetchApi: React.FC = () => {
           </span>
         </h1>
       </div>
-      <div className="flex flex-col max-w-fit  mb-10 bg-gray-800 p-4 mt-2 m-auto shadow-md rounded-lg text-center justify-center">
+      <div className="break-words flex flex-col  mb-10 bg-gray-800 p-4 mt-2 m-auto shadow-md rounded-lg text-center justify-center">
         <h2 className="text-xl mb-2">User: {userData.login}</h2>
         <p className="text-gray-200">ID: {userData.id}</p>
-        <p className="text-gray-300">Avatar Link: {userData.avatar_url}</p>
+        {/* <p className="text-gray-300">Avatar Link: {userData.avatar_url}</p> */}
         <Image
           src={userData.avatar_url}
           alt="User Avatar"
