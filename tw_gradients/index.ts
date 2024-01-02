@@ -7,6 +7,8 @@ export const GRAD_CTNCANDY: string =
   "bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400";
 export const GRAD_GOTHAN: string =
   "bg-gradient-to-r from-gray-700 via-gray-900 to-black";
+export const GRAD_GOTHAN_TB: string =
+  "bg-gradient-to-b from-gray-800 via-gray-900 to-black";
 export const GRAD_SUNSET: string =
   "bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100";
 export const GRAD_BEACHSIDE: string =

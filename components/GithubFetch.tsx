@@ -41,7 +41,7 @@ const FetchApi: React.FC = () => {
 
   return (
     <div className=" flex flex-col content-center justify-center">
-      <div className="bg-gray-900 min-h-16 text-center ">
+      <div className=" bg-gray-900 min-h-16 text-center ">
         <h1 className="uppercase ml-5 pt-3 align-bottom font-semibold text-2xl bg-[radial-gradient(138.06%_1036.51%_at_95.25%_-2.54%,_#7ED4FD_14.06%,#709DF7_51.02%,#4D78EF_79.09%)] bg-clip-text text-transparent">
           {userData.login} -&gt;{" "}
           <span className="ml-5 normal-case text-xl">
@@ -49,7 +49,7 @@ const FetchApi: React.FC = () => {
           </span>
         </h1>
       </div>
-      <div className="flex flex-col mb-10 bg-gray-800 p-4 mt-2 m-auto shadow-md rounded-lg text-center max-w-min justify-center">
+      <div className="flex flex-col max-w-fit  mb-10 bg-gray-800 p-4 mt-2 m-auto shadow-md rounded-lg text-center justify-center">
         <h2 className="text-xl mb-2">User: {userData.login}</h2>
         <p className="text-gray-200">ID: {userData.id}</p>
         <p className="text-gray-300">Avatar Link: {userData.avatar_url}</p>

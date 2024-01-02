@@ -1,4 +1,9 @@
 {
   "editor.fontSize": 16,
-  "workbench.commandPalette.experimental.suggestCommands": true
+  "editor.colorDecorators": true,
+  "editor.colorDecoratorsActivatedOn": "click",
+  "workbench.commandPalette.experimental.suggestCommands": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  }
 }

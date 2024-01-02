@@ -7,7 +7,7 @@ import Footer from "./Footer";
 import FetchApi from "./GithubFetch";
 import FeaturesDiv from "./FeaturesDiv";
 import UsingGradients from "./UsingGradients"; // "tw_gradients" from "../tw_gradients";
-
+import UserCard from "./UserCard";
 import FetchWP from "./FetchWP";
 export {
   Navbar,
@@ -20,4 +20,5 @@ export {
   FeaturesDiv,
   UsingGradients,
   FetchWP,
+  UserCard,
 };
