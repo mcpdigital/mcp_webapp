@@ -2,29 +2,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import {
-  GRAD_HYPER,
-  GRAD_OCEAN,
-  GRAD_CTNCANDY,
-  GRAD_GOTHAN,
-  GRAD_GOTHAN_TB,
-  GRAD_SUNSET,
-  GRAD_BEACHSIDE,
-  GRAD_GUNMETAL,
-  GRAD_PEACHY,
-  GRAD_SEAFOAM,
-  GRAD_PANDORA,
-  GRAD_LAVENDER,
-  GRAD_HUCKLEBERRY,
-  GRAD_BLUESTEEL,
-  GRAD_ARENDELLE,
-  GRAD_PARADISE,
-  GRAD_MIDNIGHT,
-  GRAD_BLUECYAN,
-  RAD_PURPLE,
-  RAD_PP,
-  RAD_PURPLE1,
-} from "../../tw_gradients";
+import { GRAD_GOTHAN, GRAD_GOTHAN_TB } from "../../tw_gradients";
 
 const API_ENDPOINT_URL = "https://api.github.com/users";
 interface ApiResponse {
@@ -72,7 +50,7 @@ const ApiData = () => {
 
   return (
     <div className={GRAD_GOTHAN_TB + "container  p-4"}>
-      <h1 className="text-2xl font-bold mb-4">GITHUB users endpoint</h1>
+      <h1 className="text-2xl font-bold mb-4">PAGE MODE - GITHUB users</h1>
       <div
         className={
           " col-span-full grid cols grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4"

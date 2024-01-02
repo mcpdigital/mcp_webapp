@@ -33,6 +33,10 @@ const GradientsPage = () => {
             GRAD_PANDORA + " text-4xl text-transparent bg-clip-text mb-[10px]"
           }
         >
+          <h2 className=" text-[1.5rem] border rounded-md">
+            {" "}
+            Selected Gradients and Radials
+          </h2>
           <h1>GRADIENTS</h1>
         </div>
 
