@@ -5,7 +5,7 @@ import Hero from "@/components/pages/home/Hero";
 import Middle from "@/components/pages/home/Middle";
 import StepTracker from "@/components/useState";
 import Footer from "@/components/pages/home/Footer";
-import FetchGHUser from "@/components/FetchGHUser";
+import FetchGHUser from "@/components/pages/home/MyGithub";
 import FeaturesDiv from "@/components/pages/home/Features";
 // import UsingGradients from "@/components/ui/UsingGradients";
 
