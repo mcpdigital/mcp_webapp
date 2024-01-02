@@ -1,17 +1,10 @@
 import React, { useEffect, useState } from "react";
-interface DataType {
-  id: number;
-  title: {
-    rendered: string;
-  };
-  // include other properties as needed
-}
-
+import { WPApiResponse } from "../types/types";
 function FetchWP() {
   const [data, setData] = useState<{
-    posts: DataType[];
-    pages: DataType[];
-    media: DataType[];
+    posts: WPApiResponse[];
+    pages: WPApiResponse[];
+    media: WPApiResponse[];
   }>({ posts: [], pages: [], media: [] });
 
   useEffect(() => {
