@@ -1,6 +1,6 @@
 # Use Node.js image as base
 #mcplaza@MARCELO-PC:/mnt/j/dev/portfolio$ docker build -t mcp_webappdk /mnt/j/dev/Portfolio/mcp_webapp from the directory mcplaza@MARCELO-PC:/mnt/j/dev/portfolio$
-FROM node:latest
+FROM node:alpine
 
 # Set the working directory in the container
 WORKDIR /usr/app
