@@ -3,7 +3,7 @@ import Navbar from "@/components/pages/home/Navbar";
 import Title from "@/components/pages/home/Title";
 import Hero from "@/components/pages/home/Hero";
 import Middle from "@/components/pages/home/Middle";
-import StepTracker from "@/components/useState";
+import StepTracker from "@/components/pages/home/useState";
 import Footer from "@/components/pages/home/Footer";
 import FetchGHUser from "@/components/pages/home/MyGithub";
 import FeaturesDiv from "@/components/pages/home/Features";
