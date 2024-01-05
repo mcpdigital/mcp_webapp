@@ -11,7 +11,7 @@ export default function Home() {
     e.preventDefault();
     setIsLoading(true);
     try {
-      const res = await fetch("/api/OpenAI/dallenew", {
+      const res = await fetch("/api/OpenAI/dalle", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -32,6 +32,7 @@ export default function Home() {
 
   return (
     <div className="container mx-auto p-4">
+      <h1>Ask DALL-E</h1>
       <form onSubmit={handleSubmit} className="flex flex-col gap-3">
         <textarea
           className="p-2 border border-gray-300 rounded text-gray-700"

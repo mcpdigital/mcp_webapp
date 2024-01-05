@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Navbar from "@/components/pages/home/Navbar";
 import Title from "@/components/pages/home/Title";
 import Hero from "@/components/pages/home/Hero";
 import Middle from "@/components/pages/home/Middle";
@@ -13,9 +12,6 @@ import { RAD_PURPLE } from "@/tw_gradients";
 export default function Home() {
   return (
     <main>
-      <div>
-        <Navbar />
-      </div>
       <div>
         <Hero />
       </div>
