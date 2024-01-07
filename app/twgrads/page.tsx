@@ -26,12 +26,6 @@ import {
 } from "../../tw_gradients";
 
 const twgrads = () => {
-  return (
-    <div className={GRAD_GOTHAN + " p-4"}>
-      <div className="pd-4 boder  borderborder-wihte rounded-lg  border-slate-500 border-2 mx-[5%] sm:mx-[33%] min-w-[400px] text-center p-4">
-        <ShowGrads />
-      </div>
-    </div>
-  );
+  return <ShowGrads />;
 };
 export default twgrads;
