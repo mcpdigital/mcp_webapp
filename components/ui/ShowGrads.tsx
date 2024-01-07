@@ -4,8 +4,8 @@ import * as allgradients from "../../tw_gradients";
 import { GRAD_GOTHAN, GRAD_PANDORA } from "../../tw_gradients";
 const ShowGrads = () => (
   <div className={GRAD_GOTHAN + " p-4 "}>
-    <div className="static grid grid-flow-col  grid-cols-1  ">
-      <div className="absolute mt-0 border border-slate-400 p-2 rounded-lg invisible max-w-[10%] sm:visible sm:max-w-[26%] overflow-hidden text-center">
+    <div className="static grid grid-flow-col  grid-cols-1 ">
+      <div className="absolute mt-0 grid border border-slate-400 p-2 rounded-lg invisible max-w-[10%] sm:visible sm:max-w-[26%] overflow-hidden text-center ">
         <p className=" font-extrabold p-1">
           This page shows some gradients selected from{" "}
           <a
@@ -44,6 +44,7 @@ const ShowGrads = () => (
         </p>
       </div>
     </div>
+
     <div className="border-wihte rounded-lg  border-slate-500 border-2  mx-[5%] sm:mx-[33%] min-w-[360px] sm:min-w-[400px] sm:max-w-[33%] text-center p-4">
       <div
         className={
