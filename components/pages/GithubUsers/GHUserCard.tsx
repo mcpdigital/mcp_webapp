@@ -8,7 +8,7 @@ interface UserCardProps {
 
 const UserCard = ({ user }: UserCardProps) => {
   return (
-    <div className="mb-4 break-inside-avoid p-6 rounded-xl bg-white dark:bg-slate-800 w-[250px] h-[350px] break-words text-center m-auto shadow-lg">
+    <div className="mb-4 break-inside-avoid p-6 rounded-xl text-slate-300 dark:bg-slate-800 w-[250px] h-[350px] break-words text-center m-auto shadow-lg">
       <h2 className="text-lg font-semibold mb-2">{user.login}</h2>
       <Image
         src={user.avatar_url}

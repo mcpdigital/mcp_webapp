@@ -17,10 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`GRAD_GOTHAN font-sans ${inter.className}`}>
-        <div>
-          <Navbar />
-        </div>
+      <body
+        className={`bg-slate-950 text-slate-200 font-sans ${inter.className}`}
+      >
         {children}
       </body>
     </html>

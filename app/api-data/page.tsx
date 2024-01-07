@@ -49,7 +49,7 @@ const ApiData = () => {
   }, []);
 
   return (
-    <div className={GRAD_GOTHAN_TB + "container  p-4"}>
+    <div className={GRAD_GOTHAN_TB + "container  p-4 text-slate-300"}>
       <h1 className="text-2xl font-bold mb-4">PAGE MODE - GITHUB users</h1>
       <div
         className={

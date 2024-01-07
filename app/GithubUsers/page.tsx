@@ -28,7 +28,7 @@ const ApiData = () => {
   }, []);
 
   return (
-    <div className={GRAD_GOTHAN_TB + "container  p-4"}>
+    <div className={GRAD_GOTHAN_TB + "container  p-4 text-slate-300"}>
       <h1 className="text-2xl font-bold mb-4">COMPONENT MODE- GitHub Users</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
         {data.map((user) => (

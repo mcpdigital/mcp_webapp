@@ -6,12 +6,16 @@ import StepTracker from "@/components/pages/home/useState";
 import Footer from "@/components/pages/home/Footer";
 import FetchGHUser from "@/components/pages/home/MyGithub";
 import FeaturesDiv from "@/components/pages/home/Features";
+import Navbar from "@/components/pages/home/Navbar";
 // import UsingGradients from "@/components/ui/UsingGradients";
 
 import { RAD_PURPLE } from "@/tw_gradients";
 export default function Home() {
   return (
     <main>
+      <div className="">
+        <Navbar />
+      </div>
       <div>
         <Hero />
       </div>

@@ -4,7 +4,7 @@ const navlink =
 
 const navbar = () => {
   return (
-    <div className="z-10 left-0  top-0 rounded-lg max-h-[25px] min-h-[25px] sm:min-h[25px] lg:min-h-[50px]  md:min-h-[50px] sm:max-h-[25px] flex flex-wrap gap-1 align-middle font-mono text-sm bg-gradient-to-b from-[#000000]  to-slate-900 hover:from-[#06066a] hover:to-[#0a0720] ">
+    <div className="z-10 left-0  top-0 text-slate-200 rounded-lg max-h-[25px] min-h-[25px] sm:min-h[25px] lg:min-h-[50px]  md:min-h-[50px] sm:max-h-[25px] flex flex-wrap gap-1 align-middle font-mono text-sm bg-gradient-to-b from-[#000000]  to-slate-900 hover:from-[#06066a] hover:to-[#0a0720] ">
       <a
         className={navlink}
         href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
