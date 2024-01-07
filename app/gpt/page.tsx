@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-
-export default function Home() {
+// This code snippet is a React functional component called GPT. It sets up a form with a textarea input and a button. When the form is submitted, it sends a POST request to the /api/OpenAI/openaiv4 endpoint with the value of the textarea as the request payload. If the response from the server is successful, it displays the response in a separate section below the form. The component manages the state of the prompt (input value), response (server response), and isLoading (whether the request is in progress) using the useState hook.
+export default function GPT() {
   const [prompt, setPrompt] = useState("");
   const [response, setResponse] = useState("");
   const [isLoading, setIsLoading] = useState(false);

@@ -2,6 +2,8 @@
 import React from "react";
 import * as allgradients from "../../tw_gradients";
 import { GRAD_GOTHAN, GRAD_PANDORA } from "../../tw_gradients";
+//Component to Show the complete page of gradients with extras
+/* This code snippet defines a React functional component called ShowGrads. It renders a page displaying gradients and additional information. The component uses Tailwind CSS classes for styling. The page includes a text box that appears only on large screens, a section displaying selected gradients and radials, and some explanatory text. The gradients and radials are rendered dynamically using the Object.entries method to iterate over an object called allgradients. Each gradient is rendered as a div element with a unique key and a combination of Tailwind CSS classes for styling. */
 const ShowGrads = () => (
   <div className={GRAD_GOTHAN + " p-4 "}>
     <div className="static grid grid-flow-col  grid-cols-1 ">

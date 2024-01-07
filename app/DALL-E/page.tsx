@@ -8,7 +8,10 @@ import {
   RAD_PURPLE1,
   RAD_PURPLE,
 } from "../../tw_gradients";
-export default function Home() {
+
+// This code defines a React component called "DallE". It renders a form with a textarea and a submit button. When the form is submitted, it sends a POST request to "/api/OpenAI/dallev3" with the prompt text from the textarea. If the response is successful, it updates the state with the response data. If there is an error, it sets the response to "Failed to fetch response." The component also displays the response if it exists.
+
+export default function DallE() {
   const [prompt, setPrompt] = useState("");
   const [response, setResponse] = useState("");
   const [isLoading, setIsLoading] = useState(false);

@@ -6,7 +6,6 @@ import StepTracker from "./pages/home/useState";
 import Footer from "./pages/home/Footer";
 import FetchApi from "./pages/home/MyGithub";
 import FeaturesDiv from "./pages/home/Features";
-//import UsingGradients from "./ui/UsingGradients"; // "tw_gradients" from "../tw_gradients";
 import UserCard from "./pages/GithubUsers/GHUserCard";
 import FetchWP from "./pages/wpress/FetchWP";
 import ShowGrads from "./ui/ShowGrads";
