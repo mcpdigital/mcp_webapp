@@ -2,7 +2,13 @@
 "use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { GRAD_GOTHAN, GRAD_GOTHAN_TB } from "../../tw_gradients";
+import {
+  GRAD_GOTHAN,
+  GRAD_GOTHAN_TB,
+  RAD_PURPLE2,
+  RAD_PURPLE1,
+  RAD_PURPLE,
+} from "../../tw_gradients";
 
 const API_ENDPOINT_URL = "https://api.github.com/users";
 interface ApiResponse {

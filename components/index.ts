@@ -9,6 +9,7 @@ import FeaturesDiv from "./pages/home/Features";
 //import UsingGradients from "./ui/UsingGradients"; // "tw_gradients" from "../tw_gradients";
 import UserCard from "./pages/GithubUsers/GHUserCard";
 import FetchWP from "./pages/wpress/FetchWP";
+import ShowGrads from "./ui/ShowGrads";
 export {
   Navbar,
   Title,
@@ -21,4 +22,5 @@ export {
   //UsingGradients,
   FetchWP,
   UserCard,
+  ShowGrads,
 };

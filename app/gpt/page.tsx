@@ -11,7 +11,7 @@ export default function Home() {
     e.preventDefault();
     setIsLoading(true);
     try {
-      const res = await fetch("/api/OpenAI/generate-answer", {
+      const res = await fetch("/api/OpenAI/openaiv4", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

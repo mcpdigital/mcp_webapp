@@ -1,7 +1,13 @@
 "use client";
 
 import { useState } from "react";
-
+import {
+  GRAD_GOTHAN,
+  GRAD_GOTHAN_TB,
+  RAD_PURPLE2,
+  RAD_PURPLE1,
+  RAD_PURPLE,
+} from "../../tw_gradients";
 export default function Home() {
   const [prompt, setPrompt] = useState("");
   const [response, setResponse] = useState("");
@@ -11,7 +17,7 @@ export default function Home() {
     e.preventDefault();
     setIsLoading(true);
     try {
-      const res = await fetch("/api/OpenAI/dalle", {
+      const res = await fetch("/api/OpenAI/dallev3", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -31,7 +37,7 @@ export default function Home() {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className={RAD_PURPLE1 + "container mx-auto p-4 text-slate-300"}>
       <h1>Ask DALL-E</h1>
       <form onSubmit={handleSubmit} className="flex flex-col gap-3">
         <textarea

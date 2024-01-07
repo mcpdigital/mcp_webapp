@@ -1,6 +1,6 @@
 // PAY ATTENTION SINCE THIS CODE IS THE ONLY WAY TO GET A RESPONSE FROM OPENAI V4.0
 // IT CAME FROM THE SITE: https://innotek.dev/blog/nextjs-openai API /api/send-prompt
-// filename: route.ts
+// filename: route.ts usado pelo ChatStart
 
 import { NextResponse } from "next/server";
 import OpenAI from "openai";

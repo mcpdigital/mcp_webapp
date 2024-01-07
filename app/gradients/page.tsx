@@ -22,6 +22,8 @@ import {
   RAD_PURPLE,
   RAD_PP,
   RAD_PURPLE1,
+  RAD_PURPLE2,
+  RAD_PURPLE3,
 } from "../../tw_gradients";
 
 const GradientsPage = () => {
@@ -35,7 +37,7 @@ const GradientsPage = () => {
         >
           <h2 className=" text-[1.5rem] border rounded-md">
             {" "}
-            Selected Gradients and Radials
+            Selected Gradients and Radials from HYPERCOLOR
           </h2>
           <h1>GRADIENTS</h1>
         </div>
@@ -215,17 +217,35 @@ const GradientsPage = () => {
             " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
           }
         >
-          <p className="bold text-slate-950">RAD_PP</p>
+          <p className="bold text-slate-100">RAD_PP</p>
           <p>{RAD_PP}</p>
         </div>
         <div
           className={
             RAD_PURPLE1 +
-            " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            " min-h-[100px] p-1 text-slate-100 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
           }
         >
-          <p className="bold text-slate-950">RAD_PURPLE1</p>
+          <p className="bold text-slate-400">RAD_PURPLE1</p>
           <p>{RAD_PURPLE1}</p>
+        </div>
+        <div
+          className={
+            RAD_PURPLE2 +
+            " min-h-[100px] p-1 text-slate-100 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+          }
+        >
+          <p className="bold text-slate-100">RAD_PURPLE1</p>
+          <p>{RAD_PURPLE2}</p>
+        </div>
+        <div
+          className={
+            RAD_PURPLE3 +
+            " min-h-[100px] p-1 text-slate-100 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+          }
+        >
+          <p className="bold text-slate-100">RAD_PURPLE1</p>
+          <p>{RAD_PURPLE3}</p>
         </div>
       </div>
     </div>

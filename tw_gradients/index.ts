@@ -41,3 +41,7 @@ export const RAD_PP: string =
   "bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-400 to-indigo-900";
 export const RAD_PURPLE1: string =
   "bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900";
+export const RAD_PURPLE2: string =
+  "bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-purple-900 via-purple-700 to-violet-500";
+export const RAD_PURPLE3: string =
+  "bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-gray-900 via-purple-900 to-violet-900";
