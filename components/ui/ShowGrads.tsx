@@ -22,13 +22,29 @@ const ShowGrads = () => (
           There is an extensive use of tailwindcss gradients and correct
           positioning to keep it as responsive as possible.
         </p>{" "}
-        <p>ABSOLUTE CHILD</p>
-        <p>ABSOLUTE CHILD</p>
-        <p>ABSOLUTE CHILD</p>
-        <p>ABSOLUTE CHILD</p>
+        <p className="text-justify p-1">
+          For this textbox, a single column {"grid"} is created, with a father
+          div defined as {"static"} and the children as {"absolute"}
+          {"."}
+        </p>{" "}
+        <p className="text-justify p-1">
+          This text div only appears when the display is small or greater:{" "}
+          sm:max-w-[400px] sm:min-w-[400px] min-w[360px].
+        </p>
+        <p className="text-justify p-1">
+          Using a single column grid enabled the gradients div to not be
+          bothered by this textbox.
+        </p>
+        <p className="text-justify p-1">
+          When the screen is too small, this textbox simply disappears using
+          inivisble.
+        </p>
+        <p className="text-justify p-1">
+          It does not matter how many child divs I add it is an ABSOLUTE CHILD !
+        </p>
       </div>
     </div>
-    <div className="border-wihte rounded-lg  border-slate-500 border-2  mx-[5%] sm:mx-[33%] min-w-[400px] sm:min-w-[400px] sm:max-w-[33%] text-center p-4">
+    <div className="border-wihte rounded-lg  border-slate-500 border-2  mx-[5%] sm:mx-[33%] min-w-[360px] sm:min-w-[400px] sm:max-w-[33%] text-center p-4">
       <div
         className={
           GRAD_PANDORA + " text-4xl text-transparent bg-clip-text mb-[10px]"
