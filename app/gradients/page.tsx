@@ -1,6 +1,7 @@
 // app/gradients/gradients.tsx
 
 import React from "react";
+import AlertSmall from "@/components/alerts/AlertSmall";
 import {
   GRAD_HYPER,
   GRAD_OCEANIC,
@@ -28,224 +29,230 @@ import {
 
 const GradientsPage = () => {
   return (
-    <div className={GRAD_GOTHAN + " p-4"}>
-      <div className="pd-4 borderborder-wihte rounded-lg  border-slate-500 border-2 mx-[5%] sm:mx-[33%] min-w-[400px] text-center p-4">
-        <div
-          className={
-            GRAD_PANDORA + " text-4xl text-transparent bg-clip-text mb-[10px]"
-          }
-        >
-          <h2 className=" text-[1.5rem] border rounded-md">
-            {" "}
-            Selected Gradients and Radials from HYPERCOLOR
-          </h2>
-          <h1>GRADIENTS</h1>
-        </div>
+    <div>
+      <div>
+        <AlertSmall />
+      </div>
 
-        <div
-          className={
-            GRAD_OCEANIC +
-            " shadow-inner min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-950">GRAD_OCEANIC</p>
-          <p>{GRAD_OCEANIC}</p>
-        </div>
-        <div
-          className={
-            GRAD_HYPER +
-            " shadow-inner min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-950">GRAD_HYPER</p>
-          <p>{GRAD_HYPER}</p>
-        </div>
-        <div
-          className={
-            GRAD_CTNCANDY +
-            "  min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-900">GRAD_CTNCANDY</p>
-          <p>{GRAD_CTNCANDY}</p>
-        </div>
-        <div
-          className={
-            GRAD_GOTHAN +
-            " min-h-[100px] p-1 text-slate-100 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-100">GRAD_GOTHAN</p>
-          <p>{GRAD_GOTHAN}</p>
-        </div>
-        <div
-          className={
-            GRAD_SUNSET +
-            " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-950">GRAD_SUNSET</p>
-          <p>{GRAD_SUNSET}</p>
-        </div>
-        <div
-          className={
-            GRAD_BEACHSIDE +
-            " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-950">GRAD_BEACHSIDE</p>
-          <p>{GRAD_BEACHSIDE}</p>
-        </div>
-        <div
-          className={
-            GRAD_GUNMETAL +
-            " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-950">GRAD_GUNMETAL</p>
-          <p>{GRAD_GUNMETAL}</p>
-        </div>
-        <div
-          className={
-            GRAD_PEACHY +
-            " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-950">GRAD_PEACHY</p>
-          <p>{GRAD_PEACHY}</p>
-        </div>
-        <div
-          className={
-            GRAD_SEAFOAM +
-            " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-950">GRAD_SEAFOAM</p>
-          <p>{GRAD_SEAFOAM}</p>
-        </div>
-        <div
-          className={
-            GRAD_PANDORA +
-            " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-950">GRAD_PANDORA</p>
-          <p>{GRAD_PANDORA}</p>
-        </div>
-        <div
-          className={
-            GRAD_LAVENDER +
-            " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-950">GRAD_LAVENDER</p>
-          <p>{GRAD_LAVENDER}</p>
-        </div>
-        <div
-          className={
-            GRAD_HUCKLEBERRY +
-            " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-950">GRAD_HUCKLEBERRY</p>
-          <p>{GRAD_HUCKLEBERRY}</p>
-        </div>
-        <div
-          className={
-            GRAD_BLUESTEEL +
-            " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-950">GRAD_BLUESTEEL</p>
-          <p>{GRAD_BLUESTEEL}</p>
-        </div>
-        <div
-          className={
-            GRAD_ARENDELLE +
-            " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-950">GRAD_ARENDELLE</p>
-          <p>{GRAD_ARENDELLE}</p>
-        </div>
-        <div
-          className={
-            GRAD_PARADISE +
-            " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-950">GRAD_PARADISE</p>
-          <p>{GRAD_PARADISE}</p>
-        </div>
-        <div
-          className={
-            GRAD_MIDNIGHT +
-            " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-950">GRAD_MIDNIGHT</p>
-          <p>{GRAD_MIDNIGHT}</p>
-        </div>
-        <div
-          className={
-            GRAD_BLUECYAN +
-            " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-950">GRAD_BLUECYAN</p>
-          <p>{GRAD_BLUECYAN}</p>
-        </div>
-        <div
-          className={
-            RAD_PURPLE1 + " text-4xl text-transparent bg-clip-text mb-[10px]"
-          }
-        >
-          <h1>RADIALS</h1>
-        </div>
-        <div
-          className={
-            RAD_PURPLE1 +
-            " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-950">RAD_PURPLE1</p>
-          <p>{RAD_PURPLE1}</p>
-        </div>
-        <div
-          className={
-            RAD_BB +
-            " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-100">RAD_BB</p>
-          <p>{RAD_BB}</p>
-        </div>
-        <div
-          className={
-            RAD_PURPLE1 +
-            " min-h-[100px] p-1 text-slate-100 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-400">RAD_PURPLE1</p>
-          <p>{RAD_PURPLE1}</p>
-        </div>
-        <div
-          className={
-            RAD_PURPLE2 +
-            " min-h-[100px] p-1 text-slate-100 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-100">RAD_PURPLE2</p>
-          <p>{RAD_PURPLE2}</p>
-        </div>
-        <div
-          className={
-            RAD_PURPLE3 +
-            " min-h-[100px] p-1 text-slate-100 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
-          }
-        >
-          <p className="bold text-slate-100">RAD_PURPLE3</p>
-          <p>{RAD_PURPLE3}</p>
+      <div className={GRAD_GOTHAN + " p-4"}>
+        <div className="pd-4 borderborder-wihte rounded-lg  border-slate-500 border-2 mx-[5%] sm:mx-[33%] min-w-[400px] text-center p-4">
+          <div
+            className={
+              GRAD_PANDORA + " text-4xl text-transparent bg-clip-text mb-[10px]"
+            }
+          >
+            <h2 className=" text-[1.5rem] border rounded-md">
+              {" "}
+              Selected Gradients and Radials from HYPERCOLOR
+            </h2>
+            <h1>GRADIENTS</h1>
+          </div>
+
+          <div
+            className={
+              GRAD_OCEANIC +
+              " shadow-inner min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-950">GRAD_OCEANIC</p>
+            <p>{GRAD_OCEANIC}</p>
+          </div>
+          <div
+            className={
+              GRAD_HYPER +
+              " shadow-inner min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-950">GRAD_HYPER</p>
+            <p>{GRAD_HYPER}</p>
+          </div>
+          <div
+            className={
+              GRAD_CTNCANDY +
+              "  min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-900">GRAD_CTNCANDY</p>
+            <p>{GRAD_CTNCANDY}</p>
+          </div>
+          <div
+            className={
+              GRAD_GOTHAN +
+              " min-h-[100px] p-1 text-slate-100 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-100">GRAD_GOTHAN</p>
+            <p>{GRAD_GOTHAN}</p>
+          </div>
+          <div
+            className={
+              GRAD_SUNSET +
+              " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-950">GRAD_SUNSET</p>
+            <p>{GRAD_SUNSET}</p>
+          </div>
+          <div
+            className={
+              GRAD_BEACHSIDE +
+              " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-950">GRAD_BEACHSIDE</p>
+            <p>{GRAD_BEACHSIDE}</p>
+          </div>
+          <div
+            className={
+              GRAD_GUNMETAL +
+              " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-950">GRAD_GUNMETAL</p>
+            <p>{GRAD_GUNMETAL}</p>
+          </div>
+          <div
+            className={
+              GRAD_PEACHY +
+              " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-950">GRAD_PEACHY</p>
+            <p>{GRAD_PEACHY}</p>
+          </div>
+          <div
+            className={
+              GRAD_SEAFOAM +
+              " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-950">GRAD_SEAFOAM</p>
+            <p>{GRAD_SEAFOAM}</p>
+          </div>
+          <div
+            className={
+              GRAD_PANDORA +
+              " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-950">GRAD_PANDORA</p>
+            <p>{GRAD_PANDORA}</p>
+          </div>
+          <div
+            className={
+              GRAD_LAVENDER +
+              " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-950">GRAD_LAVENDER</p>
+            <p>{GRAD_LAVENDER}</p>
+          </div>
+          <div
+            className={
+              GRAD_HUCKLEBERRY +
+              " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-950">GRAD_HUCKLEBERRY</p>
+            <p>{GRAD_HUCKLEBERRY}</p>
+          </div>
+          <div
+            className={
+              GRAD_BLUESTEEL +
+              " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-950">GRAD_BLUESTEEL</p>
+            <p>{GRAD_BLUESTEEL}</p>
+          </div>
+          <div
+            className={
+              GRAD_ARENDELLE +
+              " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-950">GRAD_ARENDELLE</p>
+            <p>{GRAD_ARENDELLE}</p>
+          </div>
+          <div
+            className={
+              GRAD_PARADISE +
+              " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-950">GRAD_PARADISE</p>
+            <p>{GRAD_PARADISE}</p>
+          </div>
+          <div
+            className={
+              GRAD_MIDNIGHT +
+              " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-950">GRAD_MIDNIGHT</p>
+            <p>{GRAD_MIDNIGHT}</p>
+          </div>
+          <div
+            className={
+              GRAD_BLUECYAN +
+              " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-950">GRAD_BLUECYAN</p>
+            <p>{GRAD_BLUECYAN}</p>
+          </div>
+          <div
+            className={
+              RAD_PURPLE1 + " text-4xl text-transparent bg-clip-text mb-[10px]"
+            }
+          >
+            <h1>RADIALS</h1>
+          </div>
+          <div
+            className={
+              RAD_PURPLE1 +
+              " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-950">RAD_PURPLE1</p>
+            <p>{RAD_PURPLE1}</p>
+          </div>
+          <div
+            className={
+              RAD_BB +
+              " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-100">RAD_BB</p>
+            <p>{RAD_BB}</p>
+          </div>
+          <div
+            className={
+              RAD_PURPLE1 +
+              " min-h-[100px] p-1 text-slate-100 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-400">RAD_PURPLE1</p>
+            <p>{RAD_PURPLE1}</p>
+          </div>
+          <div
+            className={
+              RAD_PURPLE2 +
+              " min-h-[100px] p-1 text-slate-100 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-100">RAD_PURPLE2</p>
+            <p>{RAD_PURPLE2}</p>
+          </div>
+          <div
+            className={
+              RAD_PURPLE3 +
+              " min-h-[100px] p-1 text-slate-100 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
+            }
+          >
+            <p className="bold text-slate-100">RAD_PURPLE3</p>
+            <p>{RAD_PURPLE3}</p>
+          </div>
         </div>
       </div>
     </div>

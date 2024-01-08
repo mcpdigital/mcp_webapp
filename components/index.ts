@@ -9,6 +9,8 @@ import FeaturesDiv from "./pages/home/Features";
 import UserCard from "./pages/GithubUsers/GHUserCard";
 import FetchWP from "./pages/wpress/FetchWP";
 import ShowGrads from "./ui/ShowGrads";
+import AlertSmall from "./alerts/AlertSmall";
+
 export {
   Navbar,
   Title,
@@ -22,4 +24,5 @@ export {
   FetchWP,
   UserCard,
   ShowGrads,
+  AlertSmall,
 };
