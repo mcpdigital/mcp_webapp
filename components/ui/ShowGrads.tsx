@@ -1,7 +1,7 @@
 // GradientDivs.js
 import React from "react";
 import * as allgradients from "../../tw_gradients";
-import { GRAD_GOTHAN, GRAD_PANDORA } from "../../tw_gradients";
+import { GRAD_GOTHAN, GRAD_OCEANIC } from "../../tw_gradients";
 //Component to Show the complete page of gradients with extras
 /* This code snippet defines a React functional component called ShowGrads. It renders a page displaying gradients and additional information. The component uses Tailwind CSS classes for styling. The page includes a text box that appears only on large screens, a section displaying selected gradients and radials, and some explanatory text. The gradients and radials are rendered dynamically using the Object.entries method to iterate over an object called allgradients. Each gradient is rendered as a div element with a unique key and a combination of Tailwind CSS classes for styling. */
 const ShowGrads = () => (
@@ -13,7 +13,7 @@ const ShowGrads = () => (
           <a
             href="https://hypercolor.dev"
             className={
-              GRAD_PANDORA +
+              GRAD_OCEANIC +
               " underline bg-orange-600  text-transparent bg-clip-text test-center"
             }
           >
@@ -50,7 +50,7 @@ const ShowGrads = () => (
     <div className="border-wihte rounded-lg  border-slate-500 border-2  mx-[5%] sm:mx-[33%] min-w-[360px] sm:min-w-[400px] sm:max-w-[33%] text-center p-4">
       <div
         className={
-          GRAD_PANDORA + " text-4xl text-transparent bg-clip-text mb-[10px]"
+          GRAD_OCEANIC + " text-4xl text-transparent bg-clip-text mb-[10px]"
         }
       >
         <h2 className=" text-[1.5rem] border rounded-md">

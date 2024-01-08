@@ -1,13 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import {
-  GRAD_GOTHAN,
-  GRAD_GOTHAN_TB,
-  RAD_PURPLE2,
-  RAD_PURPLE1,
-  RAD_PURPLE,
-} from "../../tw_gradients";
+import { RAD_PURPLE4 } from "../../tw_gradients";
 
 // This code defines a React component called "DallE". It renders a form with a textarea and a submit button. When the form is submitted, it sends a POST request to "/api/OpenAI/dallev3" with the prompt text from the textarea. If the response is successful, it updates the state with the response data. If there is an error, it sets the response to "Failed to fetch response." The component also displays the response if it exists.
 
@@ -40,7 +34,7 @@ export default function DallE() {
   };
 
   return (
-    <div className={RAD_PURPLE1 + "container mx-auto p-4 text-slate-300"}>
+    <div className={RAD_PURPLE4 + "container mx-auto p-4 text-slate-300"}>
       <h1>Ask DALL-E</h1>
       <form onSubmit={handleSubmit} className="flex flex-col gap-3">
         <textarea
@@ -51,7 +45,8 @@ export default function DallE() {
         ></textarea>
         <button
           type="submit"
-          className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600"
+          className="bg-gradient-to-r from-blue-500 to-purple-500 text-white p-2 rounded hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600"
+          // className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600"
           disabled={isLoading}
         >
           {isLoading ? "Sending..." : "Send Prompt"}

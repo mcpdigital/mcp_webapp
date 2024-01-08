@@ -3,7 +3,7 @@
 import React from "react";
 import {
   GRAD_HYPER,
-  GRAD_OCEAN,
+  GRAD_OCEANIC,
   GRAD_CTNCANDY,
   GRAD_GOTHAN,
   GRAD_SUNSET,
@@ -19,8 +19,8 @@ import {
   GRAD_PARADISE,
   GRAD_MIDNIGHT,
   GRAD_BLUECYAN,
-  RAD_PURPLE,
-  RAD_PP,
+  RAD_PURPLE0,
+  RAD_BB,
   RAD_PURPLE1,
   RAD_PURPLE2,
   RAD_PURPLE3,
@@ -44,12 +44,12 @@ const GradientsPage = () => {
 
         <div
           className={
-            GRAD_OCEAN +
+            GRAD_OCEANIC +
             " shadow-inner min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
           }
         >
-          <p className="bold text-slate-950">GRAD_OCEAN</p>
-          <p>{GRAD_OCEAN}</p>
+          <p className="bold text-slate-950">GRAD_OCEANIC</p>
+          <p>{GRAD_OCEANIC}</p>
         </div>
         <div
           className={
@@ -197,28 +197,28 @@ const GradientsPage = () => {
         </div>
         <div
           className={
-            RAD_PURPLE + " text-4xl text-transparent bg-clip-text mb-[10px]"
+            RAD_PURPLE1 + " text-4xl text-transparent bg-clip-text mb-[10px]"
           }
         >
           <h1>RADIALS</h1>
         </div>
         <div
           className={
-            RAD_PURPLE +
+            RAD_PURPLE1 +
             " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
           }
         >
-          <p className="bold text-slate-950">RAD_PURPLE</p>
-          <p>{RAD_PURPLE}</p>
+          <p className="bold text-slate-950">RAD_PURPLE1</p>
+          <p>{RAD_PURPLE1}</p>
         </div>
         <div
           className={
-            RAD_PP +
+            RAD_BB +
             " min-h-[100px] p-1 text-slate-900 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
           }
         >
-          <p className="bold text-slate-100">RAD_PP</p>
-          <p>{RAD_PP}</p>
+          <p className="bold text-slate-100">RAD_BB</p>
+          <p>{RAD_BB}</p>
         </div>
         <div
           className={
@@ -235,7 +235,7 @@ const GradientsPage = () => {
             " min-h-[100px] p-1 text-slate-100 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
           }
         >
-          <p className="bold text-slate-100">RAD_PURPLE1</p>
+          <p className="bold text-slate-100">RAD_PURPLE2</p>
           <p>{RAD_PURPLE2}</p>
         </div>
         <div
@@ -244,7 +244,7 @@ const GradientsPage = () => {
             " min-h-[100px] p-1 text-slate-100 border-slate-800 rounded-lg mb-[8px] outline outline-gray-500 outline-offset-3"
           }
         >
-          <p className="bold text-slate-100">RAD_PURPLE1</p>
+          <p className="bold text-slate-100">RAD_PURPLE3</p>
           <p>{RAD_PURPLE3}</p>
         </div>
       </div>

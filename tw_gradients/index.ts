@@ -1,6 +1,6 @@
 // constants/index.ts
-export const GRAD_OCEAN: string =
-  "bg-gradient-to-r from-green-300 via-blue-500 to-purple-600";
+export const GRAD_OCEANIC: string =
+  " bg-gradient-to-r from-green-300 via-blue-500 to-purple-600";
 export const GRAD_HYPER: string =
   "bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500";
 export const GRAD_CTNCANDY: string =
@@ -20,7 +20,7 @@ export const GRAD_PEACHY: string =
 export const GRAD_SEAFOAM: string =
   "bg-gradient-to-r from-green-200 via-green-300 to-blue-500";
 export const GRAD_PANDORA: string =
-  "bg-gradient-to-r from-green-300 via-blue-500 to-purple-600";
+  "bg-gradient-to-r from-green-200 via-green-400 to-purple-700";
 export const GRAD_LAVENDER: string =
   "bg-gradient-to-r from-indigo-300 to-purple-400";
 export const GRAD_HUCKLEBERRY: string =
@@ -35,13 +35,23 @@ export const GRAD_MIDNIGHT: string =
   "bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900";
 export const GRAD_BLUECYAN: string =
   "bg-gradient-to-r from-blue-200 to-cyan-200";
-export const RAD_PURPLE: string =
-  "bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-yellow-700 via-purple-600 to-gray-100";
-export const RAD_PP: string =
+export const GRAD_SUBLIME: string =
+  "bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500";
+export const GRAD_SALEM: string =
+  "bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600";
+export const GRAD_WITCH: string =
+  "bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900";
+export const RAD_BB: string =
   "bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-400 to-indigo-900";
+export const RAD_PURPLE0: string =
+  "bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-purple-200 via-purple-400 to-purple-800";
 export const RAD_PURPLE1: string =
-  "bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900";
-export const RAD_PURPLE2: string =
   "bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-purple-900 via-purple-700 to-violet-500";
+export const RAD_PURPLE2: string =
+  "bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-yellow-700 via-purple-600 to-gray-100";
 export const RAD_PURPLE3: string =
+  "bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900";
+export const RAD_PURPLE4: string =
   "bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-gray-900 via-purple-900 to-violet-900";
+export const GRAD_BUTTON1: string =
+  "bg-gradient-to-r from-blue-500 to-purple-500 text-white p-2 rounded hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600";
