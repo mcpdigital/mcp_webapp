@@ -9,7 +9,6 @@ import FeaturesDiv from "@/components/pages/home/Features";
 import Navbar from "@/components/pages/home/Navbar";
 // import UsingGradients from "@/components/ui/UsingGradients";
 
-import { RAD_PURPLE } from "@/tw_gradients";
 export default function Home() {
   return (
     <main>
