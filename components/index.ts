@@ -10,6 +10,7 @@ import UserCard from "./pages/GithubUsers/GHUserCard";
 import FetchWP from "./pages/wpress/FetchWP";
 import ShowGrads from "./ui/ShowGrads";
 import AlertSmall from "./alerts/AlertSmall";
+import SimpleNav from "./SimpleNav";
 
 export {
   Navbar,
@@ -25,4 +26,5 @@ export {
   UserCard,
   ShowGrads,
   AlertSmall,
+  SimpleNav,
 };
