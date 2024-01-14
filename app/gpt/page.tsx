@@ -34,7 +34,7 @@ export default function GPT() {
     <div className="container mx-auto p-4">
       <form onSubmit={handleSubmit} className="flex flex-col gap-3">
         <textarea
-          className="p-2 border border-gray-300 rounded text-gray-700"
+          className="p-2 border border-gray-300 rounded dark:text-gray-200 text-gray-700"
           placeholder="Enter your prompt"
           value={prompt}
           onChange={(e) => setPrompt(e.target.value)}
