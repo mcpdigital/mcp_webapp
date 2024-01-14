@@ -26,7 +26,6 @@ export default function DallE() {
         const data = await res.json(); // keep using await res.json()
         setResponse(data.data); // changed from setResponse(data.data[0].url.response)
         console.log("RESPONSE IS:", data.data);
-        saveImage(data.data);
       } else {
         throw new Error("Network response was not ok.");
       }
