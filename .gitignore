@@ -45,3 +45,7 @@ public/_next-video
 #
 /BACKUP
 /TEMP
+
+# amplify
+.amplify
+amplifyconfiguration*
